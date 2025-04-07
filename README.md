@@ -1,7 +1,9 @@
 # favicon.ico
 
-Just here so pages has got something to fetch when my other pages repos load.
+# Just here so pages has got something to fetch when my other pages repos load.
 
+## 
+[https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js][fetched)
 ```javascript
 /**
  * AnchorJS - v4.1.0 - 2017-09-20
@@ -131,7 +133,29 @@ Just here so pages has got something to fetch when my other pages repos load.
   }
 });
 ```
-
+nav to https://csingendonk.github.io/htmlpanels/index.html:
+silent auto fetch:
+fetch("https://csingendonk.github.io/favicon.ico/", {
+  "headers": {
+    "accept": "image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8",
+    "accept-language": "en-GB,en-US;q=0.9,en;q=0.8",
+    "cache-control": "no-cache",
+    "pragma": "no-cache",
+    "priority": "u=1, i",
+    "sec-ch-ua": "\"Google Chrome\";v=\"135\", \"Not-A.Brand\";v=\"8\", \"Chromium\";v=\"135\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\"",
+    "sec-fetch-dest": "image",
+    "sec-fetch-mode": "no-cors",
+    "sec-fetch-site": "same-origin"
+  },
+  "referrer": "https://csingendonk.github.io/htmlpanels/sliderPuzzle/index.html",
+  "referrerPolicy": "strict-origin-when-cross-origin",
+  "body": null,
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit"
+});
 ```html
 <!DOCTYPE html>
 <html lang="en-US">
